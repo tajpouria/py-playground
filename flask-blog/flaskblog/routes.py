@@ -1,31 +1,16 @@
-import os
-from flask import render_template, redirect, flash, url_for, request
+from flask import render_template, redirect, flash, url_for, request, abort
 from flask_login import current_user, login_user, login_required, logout_user
 from flaskblog import app, db, bcrypt
-from flaskblog.forms import RegisterForm, LoginForm, UpdateProfileForm
-from flaskblog.models import User
+from flaskblog.forms import RegisterForm, LoginForm, UpdateProfileForm, NewPostForm
+from flaskblog.models import User, Post
 from flaskblog.helpers import save_picture
-
-
-posts = [
-    {
-        'author': 'Corey Schafer',
-        'title': 'Blog Post 1',
-        'content': 'First post content',
-        'date_posted': 'April 20, 2018'
-    },
-    {
-        'author': 'Jane Doe',
-        'title': 'Blog Post 2',
-        'content': 'Second post content',
-        'date_posted': 'April 21, 2018'
-    }
-]
 
 
 @app.route("/")
 @app.route("/home")
 def home():
+    posts = Post.query.all()
+
     return render_template('home.html', posts=posts)
 
 
@@ -65,9 +50,9 @@ def login():
             login_user(user, remember=form.remember_me.data)
             next_page = request.args.get('next')
             return redirect(next_page) if next_page else redirect(url_for('home'))
-        else:
-            flash(
-                'Login unsuccessful please check email and password and try again', 'danger')
+
+        flash(
+            'Login unsuccessful please check email and password and try again', 'danger')
 
     return render_template('login.html', title='Login', form=form)
 
@@ -102,3 +87,76 @@ def account():
         form.email.data = current_user.email
 
     return render_template('account.html', title='Account', profile_pic=profile_pic, form=form)
+
+
+@app.route('/post/new', methods=['GET', 'POST'])
+@login_required
+def new_post():
+    form = NewPostForm()
+
+    if form.validate_on_submit():
+        post = Post(title=form.title.data,
+                    content=form.content.data, user_id=current_user.id)
+        db.session.add(post)
+        db.session.commit()
+
+        flash(f'{form.title.data} successfully created!', 'success')
+        return redirect(url_for('home'))
+
+    return render_template('newPost.html', form=form, legend='New Post')
+
+
+@app.route('/post/<int:post_id>', methods=['GET'])
+@login_required
+def specific_post(post_id):
+    post = Post.query.filter_by(id=post_id).first_or_404(
+        description=f'There is no post with id {post_id}'
+    )
+
+    return render_template('specificPost.html', title="Post", post=post)
+
+
+@app.route('/post/<int:post_id>/update', methods=['GET', 'POST'])
+@login_required
+def update_post(post_id):
+    post = Post.query.filter_by(id=post_id).first_or_404(
+        description=f'There is no post with id {post_id}'
+    )
+
+    form = NewPostForm()
+    if form.validate_on_submit():
+        if current_user.id != post.author.id:
+            return abort(401)
+
+        if not post.id:
+            return abort(404)
+
+        post.title = form.title.data
+        post.content = form.content.data
+        db.session.commit()
+        flash('You Post successfully updated!', 'success')
+        return redirect(url_for('specific_post', post_id=post_id))
+
+    form.title.data = post.title
+    form.content.data = post.content
+
+    return render_template('newPost.html', title="Update Post", legend="Update Post", form=form)
+
+
+@app.route('/post/<int:post_id>/delete')
+@login_required
+def delete_post(post_id):
+    post = Post.query.filter_by(id=post_id).filter_by(
+        id=post_id
+    ).first_or_404(description=f'There is no post with id {post_id}')
+
+    if current_user.id != post.author.id:
+        return abort(401)
+
+    if not post.id:
+        return abort(404)
+
+    db.session.delete(post)
+    db.session.commit()
+    flash('Your post successfully deleted!', 'success')
+    return redirect(url_for('home'))

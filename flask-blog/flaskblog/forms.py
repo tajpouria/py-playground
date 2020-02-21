@@ -1,6 +1,6 @@
 from flask_wtf import FlaskForm
 from flask_wtf.file import FileField, FileAllowed
-from wtforms import StringField, PasswordField, BooleanField, SubmitField
+from wtforms import StringField, PasswordField, BooleanField, SubmitField, TextAreaField
 from wtforms.validators import DataRequired, Email, EqualTo, Length, ValidationError
 from flask_login import current_user
 from flaskblog.models import User
@@ -63,3 +63,11 @@ class UpdateProfileForm(FlaskForm):
                 raise ValidationError(
                     'Email is already taken! try another one.'
                 )
+
+class NewPostForm(FlaskForm):
+    title = StringField('Title', [DataRequired(), Length(min=2, max=125)])
+
+    content = TextAreaField(
+        'Content', [DataRequired(), Length(min=10, max=1000)])
+
+    submit = SubmitField('Submit')
