@@ -8,9 +8,10 @@ from flaskblog.helpers import save_picture, send_reset_password_email
 
 
 @app.route("/")
-@app.route("/home")
-def home():
-    posts = Post.query.all()
+@app.route("/home/<int:page_num>")
+def home(page_num=1):
+    posts = Post.query.order_by(Post.date_posted.desc())\
+        .paginate(per_page=5, page=page_num)
 
     return render_template('home.html', posts=posts)
 
@@ -178,7 +179,7 @@ def reset_password_request():
 
         send_reset_password_email(user)
         flash(
-            f'An email containing reset token sent to {form.email.data}!', 'info')
+            f'An email containing reset token sent to {form.email.data} !', 'info')
         return redirect(url_for('home'))
 
     return render_template('resetPasswordRequest.html', title='Reset Password', form=form)
@@ -202,3 +203,17 @@ def reset_password(jws):
         return redirect(url_for('login'))
 
     return render_template('resetPassword.html', title='Reset Password', form=form)
+
+
+@app.route("/user/posts/<int:user_id>/<int:page_num>")
+def user_posts(user_id, page_num):
+    user = User.query.filter_by(id=user_id).first_or_404()
+
+    if not user:
+        return user
+
+    posts = Post.query.filter_by(user_id=user.id)\
+        .order_by(Post.date_posted.desc())\
+        .paginate(per_page=5, page=page_num)
+
+    return render_template('userPosts.html', posts=posts, user=user)
