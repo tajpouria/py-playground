@@ -64,6 +64,7 @@ class UpdateProfileForm(FlaskForm):
                     'Email is already taken! try another one.'
                 )
 
+
 class NewPostForm(FlaskForm):
     title = StringField('Title', [DataRequired(), Length(min=2, max=125)])
 
@@ -71,3 +72,25 @@ class NewPostForm(FlaskForm):
         'Content', [DataRequired(), Length(min=10, max=1000)])
 
     submit = SubmitField('Submit')
+
+
+class ResetPasswordRequestForm(FlaskForm):
+    email = StringField('Email', [DataRequired(), Email()])
+
+    submit = SubmitField('Send Reset Password Request')
+
+    def validate_email(self, field):
+        user = User.query.filter_by(email=field.data).first()
+
+        if not user:
+            raise ValidationError(
+                'There\'s no user with specified email address!')
+
+
+class ResetPasswordForm(FlaskForm):
+    password = PasswordField('Password', [DataRequired()])
+
+    confirm_password = PasswordField(
+        'Confirm Password ', [EqualTo('password')])
+
+    submit = SubmitField('Sign Up')
