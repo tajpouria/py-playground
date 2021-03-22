@@ -5,10 +5,11 @@ class Stack:
 
     data = []
 
-    def __init__(self, data=[]):
-        if not isinstance(data, list):
+    def __init__(self, **kwargs):
+        _data = kwargs.get("data")
+        if _data and not isinstance(_data, list):
             raise TypeError("Invalid data type, must be a list")
-        self.data = data
+        self.data = _data or []
 
     def append(self, val):
         '''
@@ -28,7 +29,7 @@ class Stack:
         return str(self.data)
 
 
-s = Stack([3, 4, 5])
+s = Stack(data=[3, 4, 5])
 s.append(2)
 print(s)
 print(s.pop())
@@ -39,10 +40,11 @@ class Queue:
 
     data = []
 
-    def __init(self, data=[]):
-        if not isinstance(data, list):
+    def __init__(self, **kwargs):
+        _data = kwargs.get("data")
+        if _data and not isinstance(_data, list):
             raise TypeError("Invalid data type, must be a list")
-        self.data = data
+        self.data = _data or []
 
     def enqueue(self, val):
         '''
@@ -57,7 +59,7 @@ class Queue:
         return self.data.pop()
 
 
-q = Queue()
+q = Queue(data=[1])
 
 q.enqueue(2)
 q.enqueue(3)
