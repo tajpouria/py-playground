@@ -1,5 +1,5 @@
 **/venv
-.vscode
+**/.vscode
 **/__pycache__
 **/.idea
 **/*.db
