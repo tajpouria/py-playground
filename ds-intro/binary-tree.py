@@ -32,18 +32,18 @@ class Node:
 
 	def print_pretorder(self):
 		print(self.data)
-		if self.right:
-			self.right.print_inorder()
+		if self.left:
+			self.left.print_inorder()
 		if self.right:
 			self.right.print_postorder()
 
 
 	def print_postorder(self):
-		if self.right:
-			self.right.print_inorder()
-		print(self.data)
+		if self.left:
+			self.left.print_inorder()
 		if self.right:
 			self.right.print_postorder()
+		print(self.data)
 
 	def contains(self, data):
 		print(f"Checking {self.data}")
