@@ -14,7 +14,7 @@ docker compose up airflow-init
 # The account created has the login `airflow` and the password `airflow`.
 
 # Running Airflow
-docker compose up
+docker compose up -d
 
 # Stop and remove the volumes
 docker compose down -v
