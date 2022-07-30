@@ -1,0 +1,301 @@
+id,dt,product_name,quantity
+1,7/3/2022,"Water, Tap",9
+2,7/10/2022,Juice - Propel Sport,21
+3,7/6/2022,Beer - Guiness,24
+4,7/5/2022,Veal - Bones,16
+5,7/3/2022,Red Currant Jelly,23
+6,7/25/2022,Pasta - Angel Hair,11
+7,7/4/2022,Beef - Kobe Striploin,27
+8,7/12/2022,Appetizer - Mango Chevre,30
+9,7/23/2022,Cup - 8oz Coffee Perforated,17
+10,7/17/2022,Wine - Cave Springs Dry Riesling,2
+11,7/28/2022,Tart - Butter Plain Squares,28
+12,7/16/2022,Sweet Pea Sprouts,18
+13,7/27/2022,Potatoes - Yukon Gold 5 Oz,13
+14,7/5/2022,Bread - Calabrese Baguette,12
+15,7/27/2022,Island Oasis - Lemonade,20
+16,7/6/2022,Cake - Night And Day Choclate,21
+17,7/4/2022,Cheese - Grana Padano,13
+18,7/24/2022,Wine - Bouchard La Vignee Pinot,5
+19,7/4/2022,Bandage - Flexible Neon,10
+20,7/3/2022,Veal - Loin,1
+21,7/22/2022,Trout - Smoked,20
+22,7/16/2022,Energy Drink Bawls,3
+23,7/15/2022,Bay Leaf Fresh,6
+24,7/18/2022,Pumpkin - Seed,25
+25,7/12/2022,Table Cloth 72x144 White,18
+26,7/8/2022,Greens Mustard,11
+27,7/20/2022,Garam Marsala,3
+28,7/7/2022,Cheese - Cream Cheese,12
+29,7/13/2022,Towel Dispenser,28
+30,7/15/2022,Nacho Chips,15
+31,7/26/2022,Lettuce - Iceberg,7
+32,7/11/2022,Cake - Lemon Chiffon,9
+33,7/12/2022,Bagel - Everything,3
+34,7/27/2022,"Beans - Navy, Dry",14
+35,7/1/2022,Bread - Hot Dog Buns,25
+36,7/27/2022,"Lemonade - Mandarin, 591 Ml",9
+37,7/21/2022,"Vermouth - Sweet, Cinzano",14
+38,7/9/2022,"Schnappes - Peach, Walkers",24
+39,7/4/2022,Water - San Pellegrino,22
+40,7/13/2022,Flower - Commercial Spider,27
+41,7/12/2022,Wine - Vidal Icewine Magnotta,7
+42,7/3/2022,Steamers White,25
+43,7/2/2022,Ham - Proscuitto,10
+44,7/29/2022,Soup Campbells - Tomato Bisque,22
+45,7/13/2022,Potatoes - Mini White 3 Oz,8
+46,7/14/2022,Cognac - Courvaisier,22
+47,7/1/2022,"Pasta - Penne, Lisce, Dry",21
+48,7/6/2022,"Nut - Pistachio, Shelled",27
+49,7/21/2022,"Wine - White, Pelee Island",26
+50,7/5/2022,Mortadella,16
+51,7/5/2022,Assorted Desserts,16
+52,7/1/2022,"Chestnuts - Whole,canned",29
+53,7/28/2022,Duck - Whole,23
+54,7/6/2022,Knife Plastic - White,25
+55,7/21/2022,Russian Prince,10
+56,7/21/2022,Vaccum Bag - 14x20,10
+57,7/11/2022,Icecream Bar - Del Monte,24
+58,7/13/2022,Oven Mitts 17 Inch,4
+59,7/12/2022,Beef - Short Loin,8
+60,7/14/2022,Corn Meal,29
+61,7/4/2022,Rice Paper,12
+62,7/3/2022,Flower - Daisies,17
+63,7/26/2022,Bag Stand,14
+64,7/19/2022,Wine - Rosso Toscano Igt,5
+65,7/23/2022,Bread - Malt,3
+66,7/19/2022,Sword Pick Asst,5
+67,7/19/2022,Cake - Mini Potato Pancake,30
+68,7/5/2022,Grapes - Green,29
+69,7/22/2022,Fennel - Seeds,28
+70,7/25/2022,Veal - Bones,24
+71,7/29/2022,Clams - Canned,5
+72,7/13/2022,"Pasta - Canelloni, Single Serve",2
+73,7/19/2022,Puree - Strawberry,17
+74,7/1/2022,"Sauce - Apple, Unsweetened",17
+75,7/13/2022,Soap - Hand Soap,6
+76,7/9/2022,Cheese - Ermite Bleu,25
+77,7/22/2022,"Lamb - Leg, Boneless",11
+78,7/16/2022,Container - Clear 16 Oz,20
+79,7/24/2022,Pike - Frozen Fillet,1
+80,7/24/2022,Snapple Lemon Tea,7
+81,7/11/2022,Lettuce - Radicchio,24
+82,7/18/2022,Beans - Butter Lrg Lima,15
+83,7/16/2022,Soup Campbells,26
+84,7/7/2022,"Sauce - Gravy, Au Jus, Mix",2
+85,7/3/2022,Soupfoamcont12oz 112con,20
+86,7/19/2022,"Soup - Knorr, Classic Can. Chili",18
+87,7/29/2022,"Bread - Pullman, Sliced",7
+88,7/17/2022,Beer - Paulaner Hefeweisse,17
+89,7/25/2022,Wine - Montecillo Rioja Crianza,24
+90,7/14/2022,Monkfish Fresh - Skin Off,7
+91,7/10/2022,Quinoa,18
+92,7/13/2022,Sauce - Hoisin,11
+93,7/21/2022,Table Cloth 81x81 White,29
+94,7/12/2022,Chocolate Liqueur - Godet White,12
+95,7/22/2022,Flower - Leather Leaf Fern,8
+96,7/9/2022,Vacuum Bags 12x16,10
+97,7/12/2022,Arizona - Green Tea,20
+98,7/26/2022,Appetizer - Sausage Rolls,18
+99,7/2/2022,Gatorade - Orange,13
+100,7/27/2022,Wine - Pinot Noir Stoneleigh,6
+101,7/21/2022,Apricots - Dried,22
+102,7/26/2022,Glove - Cutting,8
+103,7/11/2022,Foil Cont Round,7
+104,7/15/2022,Strawberries,6
+105,7/7/2022,Sauce - Fish 25 Ozf Bottle,16
+106,7/15/2022,Beef - Bresaola,26
+107,7/26/2022,"Soup - Beef, Base Mix",2
+108,7/15/2022,Isomalt,28
+109,7/22/2022,Tea - Jasmin Green,14
+110,7/7/2022,Grapes - Red,20
+111,7/14/2022,Beans - French,23
+112,7/26/2022,Peach - Halves,18
+113,7/8/2022,Cucumber - English,22
+114,7/22/2022,Beef - Rib Eye Aaa,23
+115,7/17/2022,Bar Bran Honey Nut,20
+116,7/14/2022,Beer - Tetleys,10
+117,7/19/2022,"Beef - Rib Roast, Cap On",2
+118,7/29/2022,Wine - Pinot Noir Mondavi Coastal,5
+119,7/29/2022,Ginger - Crystalized,4
+120,7/17/2022,"Pepper - Chipotle, Canned",9
+121,7/20/2022,Muffin Hinge - 211n,18
+122,7/29/2022,Basil - Thai,19
+123,7/9/2022,Cranberries - Frozen,17
+124,7/22/2022,Truffle Cups - Red,29
+125,7/2/2022,Pie Shells 10,28
+126,7/10/2022,Chocolate Eclairs,8
+127,7/7/2022,"Pepper - Chipotle, Canned",26
+128,7/14/2022,Apple - Fuji,27
+129,7/25/2022,Wine - Delicato Merlot,14
+130,7/20/2022,Scrubbie - Scotchbrite Hand Pad,18
+131,7/15/2022,Rice - Basmati,24
+132,7/23/2022,Plastic Wrap,23
+133,7/7/2022,"Mushroom - Shitake, Dry",4
+134,7/24/2022,Capon - Whole,25
+135,7/13/2022,"Pasta - Linguini, Dry",27
+136,7/11/2022,Rappini - Andy Boy,27
+137,7/8/2022,Ham - Procutinni,14
+138,7/23/2022,Five Alive Citrus,17
+139,7/17/2022,Cheese - Ricotta,21
+140,7/9/2022,"Bread - Crumbs, Bulk",19
+141,7/5/2022,Ecolab Crystal Fusion,13
+142,7/12/2022,"Cake Circle, Paprus",15
+143,7/14/2022,Sugar - Monocystal / Rock,24
+144,7/22/2022,Jolt Cola,4
+145,7/8/2022,"Red Snapper - Fresh, Whole",12
+146,7/22/2022,Wine - Acient Coast Caberne,2
+147,7/15/2022,"Tendrils - Baby Pea, Organic",12
+148,7/17/2022,"Crush - Orange, 355ml",11
+149,7/24/2022,Wiberg Super Cure,27
+150,7/15/2022,Wine - Magnotta - Belpaese,26
+151,7/25/2022,Table Cloth 144x90 White,20
+152,7/29/2022,Wine - Riesling Alsace Ac 2001,9
+153,7/26/2022,"Wine - Saint - Bris 2002, Sauv",9
+154,7/21/2022,Longan,13
+155,7/21/2022,Lobster - Tail 6 Oz,30
+156,7/24/2022,Mayonnaise - Individual Pkg,21
+157,7/14/2022,Tomatoes - Orange,19
+158,7/14/2022,"Lid - 10,12,16 Oz",7
+159,7/13/2022,Beer - Maudite,7
+160,7/13/2022,Dr. Pepper - 355ml,1
+161,7/4/2022,Cheese - Blue,3
+162,7/15/2022,Eggs - Extra Large,12
+163,7/8/2022,Cheese - Le Cheve Noir,21
+164,7/3/2022,"Bread - White, Sliced",3
+165,7/13/2022,Chef Hat 20cm,11
+166,7/16/2022,Arizona - Green Tea,21
+167,7/4/2022,Vinegar - Tarragon,3
+168,7/24/2022,Pears - Anjou,7
+169,7/11/2022,"Tart Shells - Savory, 3",12
+170,7/23/2022,Milk - Buttermilk,5
+171,7/29/2022,Beer - Sleeman Fine Porter,4
+172,7/8/2022,Extract - Lemon,3
+173,7/22/2022,Yucca,10
+174,7/17/2022,External Supplier,8
+175,7/29/2022,Wine - Shiraz South Eastern,2
+176,7/10/2022,"Pasta - Bauletti, Chicken White",28
+177,7/8/2022,Figs,25
+178,7/23/2022,"Soup - Canadian Pea, Dry Mix",4
+179,7/8/2022,Allspice - Jamaican,15
+180,7/25/2022,Sage - Fresh,13
+181,7/27/2022,Bananas,28
+182,7/17/2022,Haggis,17
+183,7/12/2022,Wine - Baron De Rothschild,29
+184,7/2/2022,Longan,13
+185,7/15/2022,Chocolate Bar - Oh Henry,18
+186,7/1/2022,Lid - 16 Oz And 32 Oz,5
+187,7/9/2022,Sun - Dried Tomatoes,13
+188,7/7/2022,Juice - Lime,1
+189,7/22/2022,Clementine,1
+190,7/12/2022,Muffin - Blueberry Individual,29
+191,7/10/2022,Onions - White,17
+192,7/12/2022,Oxtail - Cut,28
+193,7/29/2022,Bread - Bistro White,24
+194,7/26/2022,Silicone Parch. 16.3x24.3,30
+195,7/19/2022,"Wine - Red, Pelee Island Merlot",15
+196,7/23/2022,Bagel - Plain,29
+197,7/12/2022,Bread - Olive Dinner Roll,4
+198,7/29/2022,Ecolab - Power Fusion,24
+199,7/13/2022,"Pepper - White, Whole",22
+200,7/28/2022,Jolt Cola - Red Eye,23
+201,7/6/2022,Beets - Mini Golden,3
+202,7/8/2022,"Red Snapper - Fillet, Skin On",15
+203,7/29/2022,"Wine - White, Colubia Cresh",28
+204,7/7/2022,Sugar - Brown,16
+205,7/2/2022,Flower - Commercial Spider,1
+206,7/22/2022,Juice - Propel Sport,17
+207,7/14/2022,Kiwi Gold Zespri,27
+208,7/28/2022,Pepper - Red Chili,11
+209,7/17/2022,Cheese - Le Cru Du Clocher,8
+210,7/21/2022,Beans - Fava Fresh,2
+211,7/4/2022,"Chocolate - Semi Sweet, Calets",18
+212,7/7/2022,Energy Drink - Franks Pineapple,11
+213,7/19/2022,Rambutan,27
+214,7/13/2022,V8 Pet,19
+215,7/24/2022,"Squash - Pattypan, Yellow",26
+216,7/17/2022,Pastry - Cheese Baked Scones,2
+217,7/3/2022,Snapple Raspberry Tea,22
+218,7/8/2022,Beer - Moosehead,15
+219,7/5/2022,Muffin Puck Ww Carrot,7
+220,7/18/2022,Beef Striploin Aaa,12
+221,7/6/2022,Cleaner - Bleach,2
+222,7/26/2022,Flavouring - Orange,18
+223,7/7/2022,Bamboo Shoots - Sliced,8
+224,7/29/2022,Cake - Box Window 10x10x2.5,1
+225,7/10/2022,Cafe Royale,21
+226,7/13/2022,Compound - Raspberry,10
+227,7/2/2022,"Pineapple - Canned, Rings",27
+228,7/14/2022,"Yogurt - Cherry, 175 Gr",24
+229,7/14/2022,Sprouts - China Rose,1
+230,7/29/2022,Basil - Seedlings Cookstown,26
+231,7/2/2022,Hog / Sausage Casing - Pork,21
+232,7/17/2022,Milk Powder,25
+233,7/12/2022,Muffin Mix - Raisin Bran,21
+234,7/2/2022,Jameson Irish Whiskey,14
+235,7/2/2022,Eggwhite Frozen,17
+236,7/26/2022,Vaccum Bag 10x13,28
+237,7/22/2022,Juice - Lime,13
+238,7/12/2022,Chocolate Eclairs,3
+239,7/4/2022,Tahini Paste,4
+240,7/19/2022,Cheese Cloth,20
+241,7/26/2022,"Beans - Kidney, Canned",22
+242,7/13/2022,Celery Root,12
+243,7/21/2022,"Nut - Pecan, Halves",17
+244,7/26/2022,"Pepsi - Diet, 355 Ml",22
+245,7/16/2022,Melon - Honey Dew,18
+246,7/9/2022,Cumin - Whole,5
+247,7/16/2022,Kahlua,18
+248,7/14/2022,Food Colouring - Red,5
+249,7/20/2022,Paper - Brown Paper Mini Cups,6
+250,7/14/2022,"Zucchini - Mini, Green",20
+251,7/25/2022,"Wine - Sherry Dry Sack, William",12
+252,7/13/2022,Everfresh Products,25
+253,7/4/2022,Table Cloth 144x90 White,9
+254,7/11/2022,Saskatoon Berries - Frozen,20
+255,7/19/2022,Sugar Thermometer,6
+256,7/28/2022,Everfresh Products,25
+257,7/8/2022,Pears - Bosc,26
+258,7/14/2022,Bouillion - Fish,17
+259,7/3/2022,Lime Cordial - Roses,22
+260,7/24/2022,"Beef - Tongue, Cooked",27
+261,7/5/2022,Cup Translucent 9 Oz,21
+262,7/28/2022,Garlic Powder,22
+263,7/11/2022,"Syrup - Golden, Lyles",3
+264,7/8/2022,Langers - Ruby Red Grapfruit,18
+265,7/29/2022,"Ranchero - Primerba, Paste",21
+266,7/13/2022,Cabbage Roll,3
+267,7/7/2022,Chicken Giblets,2
+268,7/8/2022,Beer - Creemore,2
+269,7/3/2022,Wine - Mondavi Coastal Private,20
+270,7/5/2022,Sea Bass - Whole,10
+271,7/26/2022,Wine - Ruffino Chianti,16
+272,7/23/2022,Dill Weed - Dry,29
+273,7/20/2022,"Vermacelli - Sprinkles, Assorted",10
+274,7/21/2022,Bread - Corn Muffaletta,25
+275,7/16/2022,"Napkin - Dinner, White",24
+276,7/3/2022,Bulgar,3
+277,7/1/2022,Langers - Ruby Red Grapfruit,13
+278,7/29/2022,Muffin Hinge - 211n,20
+279,7/11/2022,"Fish - Atlantic Salmon, Cold",23
+280,7/13/2022,Island Oasis - Wildberry,20
+281,7/18/2022,Pepper - Cayenne,13
+282,7/10/2022,Asparagus - Mexican,16
+283,7/14/2022,Glass - Juice Clear 5oz 55005,30
+284,7/22/2022,Spinach - Spinach Leaf,16
+285,7/7/2022,"Bread - Roll, Calabrese",9
+286,7/1/2022,Cookie - Oatmeal,28
+287,7/29/2022,Pecan Raisin - Tarts,8
+288,7/5/2022,Beer - Upper Canada Light,1
+289,7/5/2022,Lettuce - Spring Mix,7
+290,7/14/2022,Ice Cream Bar - Drumstick,18
+291,7/18/2022,Corn Syrup,20
+292,7/25/2022,Flour - So Mix Cake White,14
+293,7/3/2022,Jerusalem Artichoke,18
+294,7/10/2022,Lamb - Bones,12
+295,7/22/2022,Peppercorns - Green,12
+296,7/24/2022,Sage - Rubbed,10
+297,7/15/2022,Flour - Strong,17
+298,7/21/2022,Ocean Spray - Kiwi Strawberry,15
+299,7/23/2022,Propel Sport Drink,20
+300,7/19/2022,Longos - Grilled Chicken With,27

@@ -7,3 +7,4 @@ flask-blog/flaskblog/static/profile_pics/users
 flask-blog/bash.exe.stackdump
 threading-intro/images
 **/logs
+**/*.report
