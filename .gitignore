@@ -8,3 +8,4 @@ flask-blog/bash.exe.stackdump
 threading-intro/images
 **/logs
 **/*.report
+**/.vagrant
